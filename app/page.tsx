@@ -1,3 +1,5 @@
+import CopyEmailButton from "./components/CopyEmailButton";
+
 const nav = [
   { label: "About", href: "#about" },
   { label: "Experience", href: "#experience" },
@@ -146,6 +148,7 @@ export default function Home() {
             >
               Email me
             </a>
+            <CopyEmailButton email="gulatisaivya@gmail.com" />
             <a
               href="https://linkedin.com/in/saivya-gulati"
               target="_blank"
@@ -335,6 +338,10 @@ export default function Home() {
             >
               gulatisaivya@gmail.com
             </a>
+            <CopyEmailButton
+              email="gulatisaivya@gmail.com"
+              className="text-zinc-400 underline underline-offset-4 hover:text-zinc-50"
+            />
             <span>+91-8630174246</span>
             <a
               href="https://linkedin.com/in/saivya-gulati"
